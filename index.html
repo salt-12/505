@@ -1,0 +1,190 @@
+<html manifest="SALT.manifest">
+<head>
+<meta charset="utf-8">
+<title>NIGHT KING Lite 5.05 FW</title>
+<style type="text/css">
+html, body {
+margin: 0;
+height: 100%;
+padding: 0;
+overflow: hidden;
+font-family: sans-serif;
+font-size: 20px;
+font-weight: bold;
+text-align: center;  
+width: 100%;
+overflow: hidden;
+}
+#head {
+ font-weight:bold;
+ font-size:20px;
+ color: white;
+  margin-right:10%;
+}
+button {
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 10px;
+            
+            
+            text-align: center;
+}
+button:hover {
+            box-shadow: 0 5px 50px 0 white;
+            color: white;
+            border-radius: 10px;
+}
+
+header{
+	height: 3em;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+
+header div{
+	height: 100%;
+	display: ruby-text;
+	margin-top: -1.5em;
+}
+
+#clock{
+ float:right;
+ margin-right:2.25%;
+ margin-top: 0px;
+ font-weight:bold;
+ font-size:20px;
+  color: white;
+}
+#date {
+ float:left;
+ margin-left:1.25%;
+ font-weight:bold;
+ margin-top: 5px;
+ font-size:20px;
+ color: white;
+}
+
+#msgs {
+ font-weight:bold;
+ padding-right: 60px;
+ margin-right: 60px;
+ font-size:17px;
+}
+
+.pointer {cursor: pointer;}
+</style>
+<script>
+	 function DLProgress(e){
+	  Percent=(Math.round(e.loaded / e.total * 100));
+	  window.msgs.innerHTML="Installing Cache: " + Percent + "%";
+	  }
+	 function DisplayCacheProgress(){
+	  setTimeout(function(){
+	   window.msgs.innerHTML="Cache Installed";
+	   },1500);
+	  }
+	 window.applicationCache.addEventListener("progress",DLProgress,false);
+	 window.applicationCache.oncached=function(e){
+	  DisplayCacheProgress();
+	 };
+	 window.applicationCache.onupdateready=function(e){
+	  DisplayCacheProgress();
+	 };
+</script>
+
+<div style="background-image: url('salt.jpg');"><br>
+<span id="date" ></span><span id="clock" ></span><h1 id=msgs style='font-size:25px;text-shadow: 4px 4px 4px black;text-align:center;color:White;'>NIGHT KING Lite 5.05 FW</h1>
+</head>
+<body>
+<script src="cal.js"></script>
+<div style="text-align:center">
+<br>
+<div style=font-size:20px;text-align:center;color:yellow;>HEN / MIRA</div>
+<a href="vtxhen16.html"><button style='font-size:22px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Load Hen 1.6: Activation of debugging sting - installation and execution of fake packages'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"><b>&nbsp;&nbsp;Hen v1.6&nbsp;&nbsp; </button></a>
+<a href="vtxhen17.html"><button style='font-size:22px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Load Hen 1.7: Activation of debugging sting - installation and execution of fake packages'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"><b>&nbsp;&nbsp;Hen v1.7&nbsp;&nbsp; </button></a>
+<a href="vtxhen18.html"><button style='font-size:22px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Load Hen 1.8, which has the ability to install games over the network or rpi'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"><b>&nbsp;&nbsp;Hen v1.8&nbsp;&nbsp; </button></a>
+<a href="hen212.html"><button style='font-size:22px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Hen 2.1.2 with Trophy Debugging feature'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"><b>&nbsp;&nbsp;Hen v2.1.2&nbsp;&nbsp; </button></a>
+<a href="hen213.html"><button style='font-size:22px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Hen 2.1.3 with the addition of the ability to simultaneously activate Remote Play'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"><b>&nbsp;&nbsp;Hen v2.1.3&nbsp;&nbsp; </button></a>
+<a href="hen214.html"><button style='font-size:22px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='One latest version of Hen with the addition of Save Data Mounting feature (recommended)'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"><b>&nbsp;&nbsp;Hen v2.1.4&nbsp;&nbsp; </button></a>
+<a href="hen214b.html"><button style='font-size:22px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Last Hen With the ability spoof to 9.99 fw by Leeful'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"><b>&nbsp;&nbsp;Hen v2.1.4b Spoof&nbsp;&nbsp; </button></a>
+<a href="mirahen18.html"><button style='font-size:22px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Activate Hen and Mira simultaneously'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"><b>&nbsp;&nbsp;MiraHen18&nbsp;&nbsp; </button></a>
+<br><br>
+<div style=font-size:20px;text-align:center;color:yellow;>GOLDHEN</div>
+<a href="goldhen225b2.html"><button style='font-size:22px;text-align:center;color: white; background-color:goldenrod' class="pointer" onMouseOver="msgs.innerHTML='GoldHEN 2.2.5b2 [ Added FPS counter - GoldHEN shortcut - cheat - KLog & ... ] by SISTRo'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"><b>&nbsp;&nbsp;GoldHen 2.2.5b2&nbsp;&nbsp; </button></a>
+<a href="goldhen225b7.html"><button style='font-size:22px;text-align:center;color: white; background-color:goldenrod' class="pointer" onMouseOver="msgs.innerHTML='GoldHEN 2.2.5b7 [ Added TitleId label - MC4 cheat format support & Improved FPS counter ] by SISTRo'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"><b>&nbsp;&nbsp;GoldHen 2.2.5b7&nbsp;&nbsp; </button></a>
+<a href="goldhen225b8.html"><button style='font-size:22px;text-align:center;color: white; background-color:goldenrod' class="pointer" onMouseOver="msgs.innerHTML='GoldHEN 2.2.5b8 [ Added Scanlines overlay & Game Debug Settings menu ] by SISTRo'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"><b>&nbsp;&nbsp;GoldHen 2.2.5b8&nbsp;&nbsp; </button></a>
+<a href="goldhen23.html"><button style='font-size:22px;text-align:center;color: white; background-color:goldenrod' class="pointer" onMouseOver="msgs.innerHTML='GoldHEN 2.3 [ Added Plugins support - FPS counter - internal pkg installation support & ... ] by SISTRo'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"><b>&nbsp;&nbsp;GoldHen 2.3&nbsp;&nbsp; </button></a>
+<br><br>
+<div style=font-size:20px;text-align:center;color:yellow;>PAYLOADS</div>
+<a href="SPRX-Loader-505.html"><button style='font-size:20px;text-align:center;color: white; background-color: orangered' class="pointer" onMouseOver="msgs.innerHTML='Orbis Toolbox By OSM [ WIP ]'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> Orbis Toolbox </button></a>
+<a href="rte.html"><button style='font-size:20px;text-align:center;color:white;background-color: blue' class="pointer" onMouseOver="msgs.innerHTML='Prerequisites for using PS4Trainer'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> WebRTE </button></a>
+<a href="http://nightkinghost.com/trainer/index.html"><button style='font-size:20px;text-align:center;color:white;background-color: green' class="pointer" onMouseOver="msgs.innerHTML='PS4 Offline Trainer'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> PS4 Trainer </button></a>
+<a href="binloader.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Bin file loader via port 9020'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> Bin Loader </button></a>
+<a href="vtxdumper.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='With this payload, it is possible to prepare dump or backup of game discs or digital titles in the console.'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> Dumper </button></a>
+<a href="blocker.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Disable console firmware update'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> Disable Updates </button></a>
+<a href="unblock.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Reactivate the console firmware update'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> Enable Updates </button></a>
+<a href="trp_backup.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Back up all Trophies to USB storage'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> Trp Backup </button></a>
+<a href="db_backup.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Backups database to USB storage'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> DB Backup </button></a>
+<a href="db_restore.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Restore databse backups made from USB storage'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> DB Restore </button></a>
+<br><br>
+<a href="vtxftp.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Create the necessary communication platform to connect the computer and console by FTP'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false">&nbsp; FTP &nbsp;</button></a>
+<a href="ftprw.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Set up FTP and read / write access to all sixteen partitions on the hard console'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> FTP RW </button></a>
+<a href="apptousb.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Transfer installed games from console to external memory in exfat format'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> App2USB </button></a>
+<a href="todex.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Activation of the TestKit console debug menu in the Humber Option and Games section'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> ToDex </button></a>
+<a href="ps4debug.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='CTN PS4 Debug V1.5.4.4'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> PS4debug </button></a>
+<a href="save_backup.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Backup Save all games to USB storage'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> Save Backup </button></a>
+<a href="save_restore.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Restore backups made from USB storage'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> Save Restore </button>
+<a href="save_mounter.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Make backups and move saves between consoles 5.05'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> Save Mount</button></a>
+<a href="PS4REN.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Activation of Remote Play feature version 2'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> Remoteplay </button></a>
+<a href="infinix.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Upload game installation via network (RPI method)'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> Infinix </button></a>
+<a href="parentalcontrols.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='PS4 Parental Controls Passcode Notification - if shows 0000 that means passcode is not set'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> Parental Controls </button></a>
+<br><br>
+<a href="1gblinux.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Linux boot loader with USB with 1 GB of memory for graphics'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> Linux 1Gb </button></a>
+<a href="2gblinux.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Linux boot loader with USB with 2 GB of memory for graphics'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> Linux 2Gb </button></a>
+<a href="3gblinux.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Linux boot loader with USB with 3 GB of memory for graphics'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> Linux 3Gb </button></a>
+<a href="4gblinux.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Linux boot loader with USB with 4 GB of memory for graphics'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> Linux 4Gb </button></a>
+<a href="5gblinux.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Linux boot loader with USB with 5 GB of memory for graphics'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> Linux 5Gb </button></a>
+<a href="RifRenamer.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Change Mira licenses to Hen'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> Rif Renamer </button></a>
+<a href="FanControl.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Set the desired temperature to further rotate the fan, active until the console is cut off. (Default 69 degrees)'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> Set Fan Threshold </button></a>
+<a href="tlou2-5.05-1.00.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='TLOU II V1.00 Dev Menu combos : L3+Left Touchpad side=Quick Menu/L3+Right Touchpad side=Dev Menu'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> TLOU2 V1.00 </button></a>
+<a href="Oyster100.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Red dead redemtion 2 mod menu 1.00 - V1.3.6 by RF0oDxM0Dz (R1 + Square)'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> RDR2 v1.00 </button></a>
+<a href="Oyster113.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Red dead redemtion 2 mod menu 1.13 - V1.3.6 by RF0oDxM0Dz (R1 + Square)'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> RDR2 v1.13 </button></a>
+<a href="Oyster119.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Red dead redemtion 2 mod menu 1.19 - V1.3.6 by RF0oDxM0Dz (R1 + Square)'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> RDR2 v1.19 </button></a>
+<a href="Oyster124.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Red dead redemtion 2 mod menu 1.24 - V1.3.6 by RF0oDxM0Dz (R1 + Square)'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> RDR2 v1.24 </button></a>
+<br><br>
+<a href="Oyster129.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Red dead redemtion 2 mod menu 1.29 - V1.3.6 by RF0oDxM0Dz (R1 + Square)'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> RDR2 v1.29 </button></a>
+<a href="rdr2129havana.html"><button style='font-size:20px;text-align:center;color:#00FF00' class="pointer" onMouseOver="msgs.innerHTML='Red dead redemtion 2 Havana Mod Menu 1.29 - V1.00 by 0x199'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> RDR2 v1.29 </button></a>
+<a href="gta_v_lotus104.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='GTA V Lotus 1.27, activate by holding the right arrow button and then pressing the square'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> GTA V Lotus 1.27 </button></a>
+<a href="gta_v_ap_ii_intense.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='GTA V ap 2 1.27, activate by holding down the R1 key and then pressing the square'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> GTA V ap 2 </button></a>
+<a href="gtabeef138.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Gta V Beef Queef v1.38 - in Game active Menu with Right Pad + Square'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> GTA V Beef v1.38 </button></a>
+<a href="gtaArabicGuy100.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='GTA V ArabicGuy 1.00, activate by holding the right arrow button and then pressing the square'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> GTA V ArabicGuy 1.00 </button></a>
+<a href="gtaArabicGuy127.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='GTA V ArabicGuy 1.27, activate by holding the right arrow button and then pressing the square'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> GTA V ArabicGuy 1.27 </button></a>
+<a href="gtaArabicGuy132.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='GTA V ArabicGuy 1.32, activate by holding the right arrow button and then pressing the square'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> GTA V ArabicGuy 1.32 </button></a>
+<br><br>
+<a href="gtaArabicGuy133.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='GTA V ArabicGuy 1.33, activate by holding the right arrow button and then pressing the square'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> GTA V ArabicGuy 1.33 </button></a>
+<a href="gta_wildemodz132.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Gta V WildeModz v1.32 - in Game active Menu with Left Pad + Square'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> GTA V WildeModz 1.32 </button></a>
+<a href="gta_wildemodz133.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Gta V WildeModz v1.33 - in Game active Menu with Left Pad + Square'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> GTA V WildeModz 1.33 </button></a>
+<a href="gta_wildemodz138.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='Gta V WildeModz v1.38 - in Game active Menu with Left Pad + Square'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> GTA V WildeModz 1.38 </button></a>
+<a href="gtavlamance100beta.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='GTA V Lamance Mod v1.00 Beta By david1337hax - in Game active Menu with  Dpad Right + Square'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> GTA V Lamance v1.00 </button></a>
+<a href="gtavlamance138v09.html"><button style='font-size:20px;text-align:center;color:#4863A0' class="pointer" onMouseOver="msgs.innerHTML='GTA V Lamance Mod v1.38 By david1337hax v0.9 - in Game active Menu with  Dpad Right + Square'"; onmouseout="msgs.innerHTML='NIGHT KING Lite 5.05 FW'"; return false"> GTA V Lamance v1.38 </button></a>
+<br>
+<hr>
+<a style='font-size:20px;text-align:center;color:#FFD700;'>Designer: <a style='font-size:20px;text-align:center;color:white;'> SALT <a style='font-size:20px;text-align:center;color:#FFD700;'> Super Special Thanks To :<a style='font-size:20px;text-align:center;color:white;'> Leeful , Sleirsgoevy , TylerMods & Matty </a><br><a style='font-size:20px;text-align:center;color:#FFD700;'>Main Owner : <a style='font-size:20px;text-align:center;color:white;'>SALT - Find Us In Telegram :&nbsp;<a href="http://t.me/Salt753194" style='font-size:20px;text-align:center;color:red;'>@Salt753194</a> <a style='font-size:20px;text-align:center;color:white;'>And Twitter :&nbsp;<a href="https://twitter.com/salt13939424" style='font-size:20px;text-align:center;color:red;'>@salt13939424</a>
+<hr>
+
+<br><br><br><br><br><br>
+<br>
+</div>
+<script>
+if (localStorage.passcount == null) localStorage.passcount=0;
+window.passCounter.innerHTML=localStorage.passcount;
+if (localStorage.failcount == null) localStorage.failcount=0;
+window.failCounter.innerHTML=localStorage.failcount;
+		
+</script>
+</div>
+</body>
+</html>
